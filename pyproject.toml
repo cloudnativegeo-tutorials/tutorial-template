@@ -1,5 +1,8 @@
 [project]
-authors = [{name = "Tyler Erickson", email = "tyler@vorgeo.com"}]
+authors = [ # Replace with the authors' names and emails
+  {name = "Jane Smith", email = "Jane@example.com"},
+  {name = "John Smith ", email = "john@example.com"},
+]
 dependencies = []
 name = "tutorial-template"
 requires-python = ">= 3.11"
@@ -9,17 +12,18 @@ version = "0.1.0"
 build-backend = "hatchling.build"
 requires = ["hatchling"]
 
+# Pixi configuration
+# See: https://pixi.sh/latest/reference/pixi_manifest/
 [tool.pixi.project]
 channels = ["conda-forge"]
 platforms = ["osx-arm64"]
 
 [tool.pixi.pypi-dependencies]
-# tutorial_template = { path = ".", editable = true }
 
 [tool.pixi.tasks]
 
-[tool.pixi.dependencies]
+[tool.pixi.dependencies]  # Specify conda package dependencies required by the tutorial
+python = "==3.11"
 jupyter = ">=1.1.1,<2"
 matplotlib = ">=3.10.1,<4"
 plotly = ">=6.0.1,<7"
-python = "==3.11"
