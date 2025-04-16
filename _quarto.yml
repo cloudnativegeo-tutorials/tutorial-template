@@ -1,3 +1,7 @@
+# These Quarto configuration parameters will be used during local development, but ignored when
+# the content is incorporated into the final CNG tutorial website.
+# The final website will be built using the _quarto.yml file in the CNG tutorial repository:
+# https://github.com/cloudnativegeo-tutorials/cng-tutorials.github.io/blob/main/_quarto.yml
 project:
   type: website
 
@@ -14,4 +18,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
