@@ -1,8 +1,7 @@
-
-# pixi environments
+# Ignore pixi files
 .pixi
 *.egg-info
 
+# Ignore Quarto files
 /.quarto/
 /_site/
-_site/
