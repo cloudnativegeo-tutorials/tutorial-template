@@ -1,0 +1,8 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+/.quarto/
+/_site/
+_site/
