@@ -1,7 +1,12 @@
-# Ignore pixi files
-.pixi
+# Ignore macOS Finder metadata file
+.DS_Store
+
+# Ignore Python metadata
 *.egg-info
 
-# Ignore Quarto files
-/.quarto/
-/_site/
+# Ignore pixi files
+.pixi
+
+# Ignore temporary Quarto files
+.quarto/
+_site/
