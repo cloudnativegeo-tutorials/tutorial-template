@@ -10,3 +10,5 @@
 # Ignore temporary Quarto files
 /.quarto/
 /_site/
+*_files/
+README_devcontainer.html
