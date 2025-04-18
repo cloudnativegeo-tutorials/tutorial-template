@@ -5,8 +5,8 @@
 *.egg-info
 
 # Ignore pixi files
-.pixi
+/.pixi
 
 # Ignore temporary Quarto files
-.quarto/
-_site/
+/.quarto/
+/_site/
