@@ -1,7 +1,7 @@
 [project]
 authors = [ # Replace with the authors' names and emails
-  {name = "Jane Smith", email = "Jane@example.com"},
-  {name = "John Smith ", email = "john@example.com"},
+  {name = "Jane Smith", email = "jane@example.com"},
+  {name = "John Smith", email = "john@example.com"},
 ]
 dependencies = []
 name = "tutorial-template"
