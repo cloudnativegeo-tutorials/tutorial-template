@@ -11,4 +11,4 @@
 /.quarto/
 /_site/
 *_files/
-README_devcontainer.html
+*.html
