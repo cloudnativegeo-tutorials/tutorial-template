@@ -16,11 +16,12 @@ requires = ["hatchling"]
 # See: https://pixi.sh/latest/reference/pixi_manifest/
 [tool.pixi.project]
 channels = ["conda-forge"]
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64", "linux-aarch64"]
 
 [tool.pixi.pypi-dependencies]
 
 [tool.pixi.tasks]
+start = "jupyter lab index.ipynb"
 
 [tool.pixi.dependencies]  # Specify conda package dependencies required by the tutorial
 python = "==3.11"
